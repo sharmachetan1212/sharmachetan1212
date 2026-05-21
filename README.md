@@ -51,6 +51,20 @@ DevOps Engineer focused on automation-first delivery across AWS, on-prem infrast
   <img src="https://skillicons.dev/icons?i=aws,terraform,ansible,docker,kubernetes,jenkins,githubactions,linux,python,git,js,html,css,react,nodejs,mongodb" alt="DevOps and development tools" />
 </p>
 
+## Skill Pulse
+
+| Area | Rating | Evidence |
+| --- | --- | --- |
+| DevOps Automation | ![85](https://img.shields.io/badge/85%25-strong-22c55e?style=flat-square) | GitHub Actions, repo metadata automation, CI/CD workflow improvements |
+| Infrastructure as Code | ![82](https://img.shields.io/badge/82%25-strong-22c55e?style=flat-square) | Terraform, Ansible, Chef-style templates, AWS/SAP provisioning |
+| CI/CD Engineering | ![80](https://img.shields.io/badge/80%25-solid-3b82f6?style=flat-square) | Jenkins pipeline optimization, Docker delivery, automated profile workflow |
+| Linux & Cloud Ops | ![78](https://img.shields.io/badge/78%25-solid-3b82f6?style=flat-square) | Linux server operations, AWS/on-prem work, SAP OS-level monitoring |
+| Containers & Kubernetes | ![74](https://img.shields.io/badge/74%25-growing-f59e0b?style=flat-square) | Docker projects, Kubernetes voting app, services, ingress, config, storage |
+| Python & Scripting | ![72](https://img.shields.io/badge/72%25-growing-f59e0b?style=flat-square) | Python automation, GitHub API scripts, infrastructure provisioning support |
+| Code Structure | ![76](https://img.shields.io/badge/76%25-solid-3b82f6?style=flat-square) | Modular scripts, shared API helper, config-driven automation, focused docs |
+
+**Self-check:** strongest in automation, CI/CD, and infrastructure workflows; currently leveling up deeper Kubernetes operations, production-grade testing, and reusable DevOps modules.
+
 ## GitHub Snapshot
 
 <!-- PROFILE-STATS:START -->
