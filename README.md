@@ -54,7 +54,10 @@ DevOps Engineer focused on automation-first delivery across AWS, on-prem infrast
 ## GitHub Snapshot
 
 <!-- PROFILE-STATS:START -->
-Automation will update this section with your repository statistics.
+- Public repositories tracked: **13**
+- Total stars: **0**
+- Total forks: **0**
+- Most used languages: **HTML (4), JavaScript (3), HCL (2), Dockerfile (1), CSS (1), Ruby (1)**
 <!-- PROFILE-STATS:END -->
 
 <p>
