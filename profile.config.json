@@ -1,0 +1,52 @@
+{
+  "name": "Chetan Sharma",
+  "username": "sharmachetan1212",
+  "linkedin": "sharmachetan1212",
+  "email": "sharmachetan1212@gmail.com",
+  "featuredProjects": [
+    {
+      "repo": "Infra-Automation",
+      "description": "Infrastructure automation project combining Terraform and Ansible for flexible provisioning and configuration workflows."
+    },
+    {
+      "repo": "jenkins-run-python",
+      "description": "Jenkins pipeline that builds, tests, and delivers a Python application inside a Docker container."
+    },
+    {
+      "repo": "voting-app-kube",
+      "description": "Kubernetes microservices demo using deployments, services, ingress, volumes, ConfigMaps, Secrets, and namespaces."
+    },
+    {
+      "repo": "TERRAFORM-AWS-CONFIGURATION_SAP",
+      "description": "Terraform template for provisioning SAP-focused AWS infrastructure as a service."
+    },
+    {
+      "repo": "IAC-Template-structure",
+      "description": "SAP infrastructure template structure using Terraform and Chef concepts."
+    },
+    {
+      "repo": "docker-localhost",
+      "description": "Docker project for running a local application environment."
+    }
+  ],
+  "defaultTopics": [
+    "devops",
+    "automation",
+    "github-actions",
+    "ci-cd"
+  ],
+  "descriptionOverrides": {
+    "Infra-Automation": "Infrastructure automation project combining Terraform and Ansible for flexible provisioning and configuration workflows.",
+    "jenkins-run-python": "Jenkins pipeline that builds, tests, and delivers a Python application inside a Docker container.",
+    "voting-app-kube": "Kubernetes microservices demo using deployments, services, ingress, volumes, ConfigMaps, Secrets, and namespaces.",
+    "TERRAFORM-AWS-CONFIGURATION_SAP": "Terraform template for provisioning SAP-focused AWS infrastructure on AWS.",
+    "IAC-Template-structure": "SAP infrastructure template structure using Terraform and Chef concepts.",
+    "docker-localhost": "Docker project for running a local application environment.",
+    "clone-insta": "Instagram-style frontend clone built with HTML and CSS.",
+    "HTML.vscode": "Stopwatch project built with HTML, CSS, and JavaScript.",
+    "Calculator-on-web": "Web calculator project built with HTML, CSS, and JavaScript.",
+    "COVID-19-Tracker": "JavaScript project for tracking and displaying COVID-19 information.",
+    "Chetan-projects": "Collection of early HTML projects and frontend practice work.",
+    "haxkvedainte": "CSS-focused frontend practice project."
+  }
+}

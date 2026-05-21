@@ -1,0 +1,17 @@
+{
+  "name": "github-profile-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automates GitHub profile README stats, repository topics, descriptions, and quality checks.",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-stats.js",
+    "topics": "node scripts/update-topics.js",
+    "descriptions": "node scripts/update-descriptions.js",
+    "validate": "node scripts/validate-repos.js",
+    "profile": "node scripts/generate-stats.js && node scripts/update-topics.js && node scripts/update-descriptions.js && node scripts/validate-repos.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
