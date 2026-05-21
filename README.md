@@ -1,15 +1,26 @@
-# Hi, I'm Chetan Sharma
+# Chetan Sharma
 
-DevOps and cloud practitioner building hands-on projects across CI/CD, containers, Kubernetes, Terraform, Ansible, AWS, and infrastructure automation.
+**DevOps Engineer | Infrastructure Automation | CI/CD | Cloud Operations**
+
+I build automation-first DevOps workflows across Terraform, Ansible, Jenkins, Docker, Kubernetes, AWS, Linux, Python, and SAP infrastructure operations.
 
 [![Profile views](https://komarev.com/ghpvc/?username=sharmachetan1212&style=flat-square)](https://github.com/sharmachetan1212)
 [![GitHub followers](https://img.shields.io/github/followers/sharmachetan1212?style=flat-square&logo=github)](https://github.com/sharmachetan1212?tab=followers)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-sharmachetan1212-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sharmachetan1212)
+[![Email](https://img.shields.io/badge/Email-sharmachetan1212%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:sharmachetan1212@gmail.com)
 
 ## About Me
 
 I enjoy turning deployment and infrastructure ideas into working, repeatable projects. My experience includes Terraform and Ansible infrastructure automation, Jenkins pipelines, Python automation, Linux server operations, SAP application monitoring, Docker-based environments, Kubernetes microservice deployments, and AWS/SAP infrastructure templates.
 
 I started with web projects in HTML, CSS, and JavaScript, and I now focus on DevOps workflows that connect code, containers, cloud infrastructure, and automation.
+
+## Impact Highlights
+
+- Reduced manual infrastructure configuration effort by **50%** through Python automation.
+- Reduced Jenkins deployment failures by **30%** through CI/CD monitoring and optimization.
+- Supported cloud migration work across Terraform, Chef, Linux, and SAP operations.
+- Built practical DevOps projects covering infrastructure automation, container delivery, and Kubernetes orchestration.
 
 ## Industrial Experience
 
@@ -32,12 +43,12 @@ Jun 2022 - Jul 2022
 
 ## Current Focus
 
+- Building [Infra-Automation](https://github.com/sharmachetan1212/Infra-Automation) with Terraform and Ansible patterns
+- Improving profile automation and repository quality with GitHub Actions
 - Building practical DevOps projects with Jenkins, Docker, Kubernetes, Terraform, and AWS
 - Combining Terraform and Ansible for infrastructure provisioning and configuration automation
 - Creating infrastructure as code templates for repeatable cloud provisioning
 - Practicing container orchestration using Kubernetes services, deployments, ingress, config, and storage patterns
-- Improving repository quality with clear READMEs, topics, descriptions, and automation
-- Strengthening GitHub profile automation so repositories stay easier to discover
 
 ## Tech Stack
 
@@ -62,6 +73,15 @@ Jun 2022 - Jul 2022
 <!-- PROFILE-STATS:START -->
 Automation will update this section with your repository statistics.
 <!-- PROFILE-STATS:END -->
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sharmachetan1212&show_icons=true&hide_border=true&theme=default" alt="Chetan Sharma GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sharmachetan1212&layout=compact&hide_border=true&theme=default" alt="Chetan Sharma top languages" />
+</p>
+
+<p>
+  <img src="https://github-profile-trophy.vercel.app/?username=sharmachetan1212&theme=flat&no-frame=true&margin-w=8" alt="Chetan Sharma GitHub trophies" />
+</p>
 
 ## Featured Work
 
