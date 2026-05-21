@@ -11,6 +11,15 @@ I enjoy turning deployment and infrastructure ideas into working, repeatable pro
 
 I started with web projects in HTML, CSS, and JavaScript, and I now focus on DevOps workflows that connect code, containers, cloud infrastructure, and automation.
 
+## Industrial Experience
+
+- Working with infrastructure automation practices using Terraform, Ansible, and AWS-focused provisioning patterns.
+- Building CI/CD workflows with Jenkins to test, package, and deliver applications in containerized environments.
+- Creating Docker-based local environments and understanding how applications move from development to deployment.
+- Practicing Kubernetes orchestration for microservice workloads using deployments, services, ingress, volumes, ConfigMaps, Secrets, and namespaces.
+- Exploring SAP infrastructure automation patterns with Terraform, Chef-style structure, and reusable IaC templates.
+- Improving GitHub repositories with better descriptions, topics, documentation, quality checks, and automated profile updates.
+
 ## Current Focus
 
 - Building practical DevOps projects with Jenkins, Docker, Kubernetes, Terraform, and AWS
