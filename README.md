@@ -62,23 +62,12 @@ Automation will update this section with your repository statistics.
 
 ## Featured Projects
 
-<p>
-  <a href="https://github.com/sharmachetan1212/Infra-Automation">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sharmachetan1212&repo=Infra-Automation&hide_border=true&theme=transparent" alt="Infra-Automation" />
-  </a>
-  <a href="https://github.com/sharmachetan1212/jenkins-run-python">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sharmachetan1212&repo=jenkins-run-python&hide_border=true&theme=transparent" alt="jenkins-run-python" />
-  </a>
-</p>
-
-<p>
-  <a href="https://github.com/sharmachetan1212/voting-app-kube">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sharmachetan1212&repo=voting-app-kube&hide_border=true&theme=transparent" alt="voting-app-kube" />
-  </a>
-  <a href="https://github.com/sharmachetan1212/TERRAFORM-AWS-CONFIGURATION_SAP">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=sharmachetan1212&repo=TERRAFORM-AWS-CONFIGURATION_SAP&hide_border=true&theme=transparent" alt="TERRAFORM-AWS-CONFIGURATION_SAP" />
-  </a>
-</p>
+| Project | Focus |
+| --- | --- |
+| [Infra-Automation](https://github.com/sharmachetan1212/Infra-Automation) | Terraform + Ansible infrastructure automation |
+| [jenkins-run-python](https://github.com/sharmachetan1212/jenkins-run-python) | Jenkins pipeline for Python app delivery in Docker |
+| [voting-app-kube](https://github.com/sharmachetan1212/voting-app-kube) | Kubernetes microservices with deployments, services, ingress, config, and storage patterns |
+| [TERRAFORM-AWS-CONFIGURATION_SAP](https://github.com/sharmachetan1212/TERRAFORM-AWS-CONFIGURATION_SAP) | Terraform templates for AWS/SAP infrastructure provisioning |
 
 ## Focus Areas
 
