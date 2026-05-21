@@ -7,18 +7,28 @@ DevOps and cloud practitioner building hands-on projects across CI/CD, container
 
 ## About Me
 
-I enjoy turning deployment and infrastructure ideas into working, repeatable projects. My GitHub work includes Terraform and Ansible infrastructure automation, Jenkins pipelines for Python apps, Docker-based local application environments, Kubernetes microservice deployments, and Terraform templates for AWS/SAP infrastructure.
+I enjoy turning deployment and infrastructure ideas into working, repeatable projects. My experience includes Terraform and Ansible infrastructure automation, Jenkins pipelines, Python automation, Linux server operations, SAP application monitoring, Docker-based environments, Kubernetes microservice deployments, and AWS/SAP infrastructure templates.
 
 I started with web projects in HTML, CSS, and JavaScript, and I now focus on DevOps workflows that connect code, containers, cloud infrastructure, and automation.
 
 ## Industrial Experience
 
-- Working with infrastructure automation practices using Terraform, Ansible, and AWS-focused provisioning patterns.
-- Building CI/CD workflows with Jenkins to test, package, and deliver applications in containerized environments.
-- Creating Docker-based local environments and understanding how applications move from development to deployment.
-- Practicing Kubernetes orchestration for microservice workloads using deployments, services, ingress, volumes, ConfigMaps, Secrets, and namespaces.
-- Exploring SAP infrastructure automation patterns with Terraform, Chef-style structure, and reusable IaC templates.
-- Improving GitHub repositories with better descriptions, topics, documentation, quality checks, and automated profile updates.
+**Software Engineer, DevOps | Quantum Integrators, Pune**  
+Oct 2023 - Apr 2025
+
+- Led automation work from design to deployment for scalable infrastructure and delivery workflows.
+- Deployed and managed cloud infrastructure using Terraform and Chef while supporting on-premises to cloud migration.
+- Automated infrastructure provisioning with Python, reducing manual configuration effort by 50%.
+- Monitored and optimized Jenkins CI/CD pipelines, reducing deployment failures by 30% and improving release speed.
+- Managed Linux-based production and development servers with a focus on uptime, reliability, and performance.
+- Monitored SAP application health at OS level, including CPU, memory, disk, and network checks, and used SAP GUI transactions such as SM50, SM66, ST22, and ST03N for troubleshooting.
+- Supported migration activities and mentored engineers during automation implementation.
+
+**Frontend Developer Intern | Hackveda Pvt Ltd, Noida**  
+Jun 2022 - Jul 2022
+
+- Built cross-browser UI components using HTML, CSS, and JavaScript, reducing UI bug reports by 20%.
+- Gained hands-on frontend experience that later helped me understand application delivery from code to deployment.
 
 ## Current Focus
 
