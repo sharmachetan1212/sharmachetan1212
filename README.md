@@ -13,13 +13,19 @@
 
 ## About
 
-DevOps Engineer focused on automation-first delivery: Terraform, Ansible, Jenkins, Docker, Kubernetes, AWS, Linux, Python, and SAP infrastructure operations.
+DevOps Engineer focused on automation-first delivery across AWS, on-prem infrastructure, CI/CD, Terraform, Ansible, Jenkins, Docker, Kubernetes, Linux, Python, and SAP operations.
 
 - **50%** less manual infrastructure configuration through Python automation.
 - **30%** fewer Jenkins deployment failures through CI/CD monitoring and optimization.
 - Experience across cloud migration, Linux operations, SAP monitoring, IaC templates, and containerized delivery.
 
 ## Experience
+
+**DevOps Engineer | Proeffico Solutions Private Ltd., Noida**  
+`Current`
+
+- Working on AWS, on-prem infrastructure, and CI/CD automation.
+- Building practical automation workflows that connect infrastructure, deployment, monitoring, and reliability.
 
 **Software Engineer, DevOps | Quantum Integrators, Pune**  
 `Oct 2023 - Apr 2025`
