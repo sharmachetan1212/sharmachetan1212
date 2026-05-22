@@ -69,7 +69,7 @@ Python & Scripting     ██████████████░░░░░
 - Public repositories tracked: **13**
 - Total stars: **0**
 - Total forks: **0**
-- Most used languages: **HTML (4), JavaScript (3), HCL (2), Dockerfile (1), CSS (1), Ruby (1)**
+- Most used languages: **HTML (4), JavaScript (3), HCL (2), CSS (1), Dockerfile (1), Ruby (1)**
 <!-- PROFILE-STATS:END -->
 
 <p>
