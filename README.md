@@ -13,7 +13,7 @@
 ## About
 
 <!-- ABOUT:START -->
-DevOps engineer building practical automation across cloud, Linux, CI/CD, and infrastructure workflows.
+DevOps engineer focused on cloud infrastructure, Linux operations, CI/CD pipelines, and practical automation that reduces manual delivery work.
 
 `AWS` `Terraform` `Ansible` `Docker` `Kubernetes` `Jenkins` `Linux` `Python` `SAP Ops`
 
@@ -34,10 +34,10 @@ DevOps engineer building practical automation across cloud, Linux, CI/CD, and in
 ## Now Building
 
 <!-- NOW-BUILDING:START -->
-- Terraform to Ansible VM automation
-- Docker setup from generated inventory
-- GitHub profile automation
-- Kubernetes and CI/CD practice projects
+- Terraform-driven VM provisioning connected to Ansible configuration workflows
+- Docker host setup from generated infrastructure inventory
+- GitHub profile automation with Actions and repository metadata updates
+- Kubernetes and CI/CD practice projects for repeatable deployment patterns
 <!-- NOW-BUILDING:END -->
 
 ## Toolbox
@@ -49,13 +49,13 @@ DevOps engineer building practical automation across cloud, Linux, CI/CD, and in
 ## Skill Pulse
 
 ```text
-DevOps Automation      █████████████████░░░ 85%
-Infrastructure as Code ████████████████░░░░ 82%
-CI/CD Engineering      ████████████████░░░░ 80%
-Linux & Cloud Ops      ███████████████░░░░░ 78%
-Code Structure         ███████████████░░░░░ 76%
-Containers/Kubernetes  ██████████████░░░░░░ 74%
-Python & Scripting     ██████████████░░░░░░ 72%
+DevOps Automation      #################--- 85%
+Infrastructure as Code ################---- 82%
+CI/CD Engineering      ################---- 80%
+Linux & Cloud Ops      ###############----- 78%
+Code Structure         ###############----- 76%
+Containers/Kubernetes  ##############------ 74%
+Python & Scripting     ##############------ 72%
 ```
 
 ## GitHub Snapshot
@@ -84,13 +84,13 @@ Python & Scripting     ██████████████░░░░░
 
 ## Featured Projects
 
-| Project | Focus |
-| --- | --- |
-| [Infra-Automation](https://github.com/sharmachetan1212/Infra-Automation) | Terraform + Ansible infrastructure automation |
-| [jenkins-run-python](https://github.com/sharmachetan1212/jenkins-run-python) | Jenkins pipeline for Python app delivery in Docker |
-| [voting-app-kube](https://github.com/sharmachetan1212/voting-app-kube) | Kubernetes microservices with deployments, services, ingress, config, and storage patterns |
-| [TERRAFORM-AWS-CONFIGURATION_SAP](https://github.com/sharmachetan1212/TERRAFORM-AWS-CONFIGURATION_SAP) | Terraform templates for AWS/SAP infrastructure provisioning |
+<!-- FEATURED-PROJECTS:START -->
+- [Infra-Automation](https://github.com/sharmachetan1212/Infra-Automation) - Infrastructure automation project combining Terraform and Ansible for flexible provisioning and configuration workflows.
+- [jenkins-run-python](https://github.com/sharmachetan1212/jenkins-run-python) - Jenkins pipeline that builds, tests, and delivers a Python application inside a Docker container.
+- [voting-app-kube](https://github.com/sharmachetan1212/voting-app-kube) - Kubernetes microservices demo using deployments, services, ingress, volumes, ConfigMaps, Secrets, and namespaces.
+- [TERRAFORM-AWS-CONFIGURATION_SAP](https://github.com/sharmachetan1212/TERRAFORM-AWS-CONFIGURATION_SAP) - Terraform template for provisioning SAP-focused AWS infrastructure as a service.
+<!-- FEATURED-PROJECTS:END -->
 
 ## Focus Areas
 
-`CI/CD` `Infrastructure as Code` `Cloud Migration` `Linux Operations` `SAP Monitoring` `Containers` `Kubernetes` `Automation`
+`CI/CD` `Infrastructure as Code` `Cloud Migration` `Linux Operations` `SAP Monitoring` `Containers` `Kubernetes` `Automation` `GitHub Actions`

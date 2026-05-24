@@ -4,7 +4,7 @@
   "linkedin": "sharmachetan1212",
   "email": "sharmachetan1212@gmail.com",
   "about": {
-    "summary": "DevOps engineer building practical automation across cloud, Linux, CI/CD, and infrastructure workflows.",
+    "summary": "DevOps engineer focused on cloud infrastructure, Linux operations, CI/CD pipelines, and practical automation that reduces manual delivery work.",
     "tags": [
       "AWS",
       "Terraform",
@@ -42,10 +42,10 @@
     }
   ],
   "nowBuilding": [
-    "Terraform to Ansible VM automation",
-    "Docker setup from generated inventory",
-    "GitHub profile automation",
-    "Kubernetes and CI/CD practice projects"
+    "Terraform-driven VM provisioning connected to Ansible configuration workflows",
+    "Docker host setup from generated infrastructure inventory",
+    "GitHub profile automation with Actions and repository metadata updates",
+    "Kubernetes and CI/CD practice projects for repeatable deployment patterns"
   ],
   "featuredProjects": [
     {
