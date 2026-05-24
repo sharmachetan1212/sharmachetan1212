@@ -5,7 +5,6 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/sharmachetan1212"><img src="https://komarev.com/ghpvc/?username=sharmachetan1212&style=flat-square" alt="Profile views" /></a>
   <a href="https://github.com/sharmachetan1212?tab=followers"><img src="https://img.shields.io/github/followers/sharmachetan1212?style=flat-square&logo=github" alt="GitHub followers" /></a>
   <a href="https://www.linkedin.com/in/sharmachetan1212"><img src="https://img.shields.io/badge/LinkedIn-sharmachetan1212-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:sharmachetan1212@gmail.com"><img src="https://img.shields.io/badge/Email-sharmachetan1212%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -71,6 +70,10 @@ Python & Scripting     ██████████████░░░░░
 - Total forks: **0**
 - Most used languages: **HTML (4), JavaScript (3), HCL (2), Ruby (1), Dockerfile (1), CSS (1)**
 <!-- PROFILE-STATS:END -->
+
+<!-- PROFILE-VIEWS:START -->
+- Unique profile visitors: **Unavailable**
+<!-- PROFILE-VIEWS:END -->
 
 <p>
   <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sharmachetan1212&theme=transparent" alt="GitHub stats" />

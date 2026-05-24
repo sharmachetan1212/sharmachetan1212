@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import { listRepositories, loadConfig, getOwner } from "./lib/github.js";
+import { listRepositories, loadConfig, getOwner, getRepositoryTrafficViews } from "./lib/github.js";
 
 function replaceSection(readme, marker, content) {
   const start = `<!-- ${marker}:START -->`;
@@ -43,6 +43,29 @@ function renderFeaturedProjects(config, owner) {
     .join("\n");
 }
 
+async function getProfileTraffic(owner, config) {
+  const profileRepository = config.profileRepository || owner;
+
+  try {
+    return await getRepositoryTrafficViews(owner, profileRepository);
+  } catch (error) {
+    console.warn(`Could not load unique profile views from GitHub traffic API: ${error.message}`);
+    return null;
+  }
+}
+
+function renderProfileViews(traffic) {
+  if (!traffic) {
+    return "- Unique profile visitors: **Unavailable**";
+  }
+
+  return [
+    `- Unique profile visitors: **${traffic.uniques}**`,
+    `- Total profile views: **${traffic.count}**`,
+    "- Window: **Last 14 days from GitHub traffic data**"
+  ].join("\n");
+}
+
 const config = loadConfig();
 const owner = getOwner(config);
 
@@ -51,13 +74,16 @@ if (!owner) {
 }
 
 const repositories = await listRepositories(owner);
+const profileTraffic = await getProfileTraffic(owner, config);
 const stats = renderStats(repositories);
+const profileViews = renderProfileViews(profileTraffic);
 const featuredProjects = renderFeaturedProjects(config, owner);
 let readme = fs.readFileSync("README.md", "utf8");
 
 readme = readme.replaceAll("YOUR_GITHUB_USERNAME", owner);
 readme = readme.replaceAll("YOUR_LINKEDIN_USERNAME", config.linkedin || "YOUR_LINKEDIN_USERNAME");
 readme = replaceSection(readme, "PROFILE-STATS", stats);
+readme = replaceSection(readme, "PROFILE-VIEWS", profileViews);
 readme = replaceSection(readme, "FEATURED-PROJECTS", featuredProjects);
 
 fs.writeFileSync("README.md", readme);
@@ -70,7 +96,13 @@ fs.writeFileSync(
       updatedAt: new Date().toISOString(),
       repositories: repositories.length,
       stars: repositories.reduce((sum, repo) => sum + repo.stargazers_count, 0),
-      forks: repositories.reduce((sum, repo) => sum + repo.forks_count, 0)
+      forks: repositories.reduce((sum, repo) => sum + repo.forks_count, 0),
+      profileViews: profileTraffic
+        ? {
+            uniqueVisitorsLast14Days: profileTraffic.uniques,
+            totalViewsLast14Days: profileTraffic.count
+          }
+        : null
     },
     null,
     2

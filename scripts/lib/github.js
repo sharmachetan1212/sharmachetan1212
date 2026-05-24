@@ -57,6 +57,10 @@ export async function listRepositories(owner) {
   }
 }
 
+export async function getRepositoryTrafficViews(owner, repo) {
+  return githubRequest(`/repos/${owner}/${repo}/traffic/views`);
+}
+
 export function detectTopics(repo, config) {
   const source = `${repo.name} ${repo.description || ""} ${repo.language || ""}`.toLowerCase();
   const topics = new Set(config.defaultTopics || []);
