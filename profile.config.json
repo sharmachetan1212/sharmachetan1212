@@ -3,6 +3,50 @@
   "username": "sharmachetan1212",
   "linkedin": "sharmachetan1212",
   "email": "sharmachetan1212@gmail.com",
+  "about": {
+    "summary": "DevOps engineer building practical automation across cloud, Linux, CI/CD, and infrastructure workflows.",
+    "tags": [
+      "AWS",
+      "Terraform",
+      "Ansible",
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Linux",
+      "Python",
+      "SAP Ops"
+    ],
+    "metrics": [
+      "50% less manual infrastructure configuration",
+      "30% fewer Jenkins deployment failures"
+    ]
+  },
+  "experience": [
+    {
+      "role": "DevOps Engineer",
+      "company": "Proeffico Solutions",
+      "period": "Current",
+      "focus": "AWS, CI/CD, infrastructure automation"
+    },
+    {
+      "role": "Software Engineer, DevOps",
+      "company": "Quantum Integrators",
+      "period": "Oct 2023 - Apr 2025",
+      "focus": "Terraform, Jenkins, Linux, SAP operations"
+    },
+    {
+      "role": "Frontend Developer Intern",
+      "company": "Hackveda",
+      "period": "Jun 2022 - Jul 2022",
+      "focus": "HTML, CSS, JavaScript UI components"
+    }
+  ],
+  "nowBuilding": [
+    "Terraform to Ansible VM automation",
+    "Docker setup from generated inventory",
+    "GitHub profile automation",
+    "Kubernetes and CI/CD practice projects"
+  ],
   "featuredProjects": [
     {
       "repo": "Infra-Automation",

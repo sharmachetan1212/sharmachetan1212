@@ -12,37 +12,33 @@
 
 ## About
 
-DevOps Engineer focused on automation-first delivery across AWS, on-prem infrastructure, CI/CD, Terraform, Ansible, Jenkins, Docker, Kubernetes, Linux, Python, and SAP operations.
+<!-- ABOUT:START -->
+DevOps engineer building practical automation across cloud, Linux, CI/CD, and infrastructure workflows.
 
-- **50%** less manual infrastructure configuration through Python automation.
-- **30%** fewer Jenkins deployment failures through CI/CD monitoring and optimization.
-- Experience across cloud migration, Linux operations, SAP monitoring, IaC templates, and containerized delivery.
+`AWS` `Terraform` `Ansible` `Docker` `Kubernetes` `Jenkins` `Linux` `Python` `SAP Ops`
+
+- 50% less manual infrastructure configuration
+- 30% fewer Jenkins deployment failures
+<!-- ABOUT:END -->
 
 ## Experience
 
-**DevOps Engineer | Proeffico Solutions Private Ltd., Noida**  
-`Current`
-
-- Working on AWS, on-prem infrastructure, and CI/CD automation.
-- Building practical automation workflows that connect infrastructure, deployment, monitoring, and reliability.
-
-**Software Engineer, DevOps | Quantum Integrators, Pune**  
-`Oct 2023 - Apr 2025`
-
-- Automated infrastructure provisioning with Python, Terraform, and Chef.
-- Managed Jenkins pipelines, Linux servers, cloud migration tasks, and SAP OS-level monitoring.
-- Used SAP GUI transactions including `SM50`, `SM66`, `ST22`, and `ST03N` for troubleshooting.
-
-**Frontend Developer Intern | Hackveda Pvt Ltd, Noida**  
-`Jun 2022 - Jul 2022`
-
-- Built cross-browser UI components with HTML, CSS, and JavaScript.
+<!-- EXPERIENCE:START -->
+| Role | Where | Focus |
+| --- | --- | --- |
+| DevOps Engineer | Proeffico Solutions / Current | AWS, CI/CD, infrastructure automation |
+| Software Engineer, DevOps | Quantum Integrators / Oct 2023 - Apr 2025 | Terraform, Jenkins, Linux, SAP operations |
+| Frontend Developer Intern | Hackveda / Jun 2022 - Jul 2022 | HTML, CSS, JavaScript UI components |
+<!-- EXPERIENCE:END -->
 
 ## Now Building
 
-- [Infra-Automation](https://github.com/sharmachetan1212/Infra-Automation): Terraform and Ansible infrastructure automation.
-- GitHub profile automation with Actions, repo topics, descriptions, and quality checks.
-- Kubernetes, Docker, Jenkins, and Terraform projects for practical DevOps workflows.
+<!-- NOW-BUILDING:START -->
+- Terraform to Ansible VM automation
+- Docker setup from generated inventory
+- GitHub profile automation
+- Kubernetes and CI/CD practice projects
+<!-- NOW-BUILDING:END -->
 
 ## Toolbox
 
@@ -70,6 +66,8 @@ Python & Scripting     ██████████████░░░░░
 - Total forks: **0**
 - Most used languages: **HTML (4), JavaScript (3), HCL (2), Ruby (1), Dockerfile (1), CSS (1)**
 <!-- PROFILE-STATS:END -->
+
+## Profile Traffic
 
 <!-- PROFILE-VIEWS:START -->
 - Unique profile visitors: **Unavailable**

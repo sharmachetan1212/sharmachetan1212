@@ -32,6 +32,51 @@ function renderStats(repositories) {
   ].join("\n");
 }
 
+function renderAbout(config) {
+  const about = config.about || {};
+  const summary = about.summary || "DevOps engineer building automation-first infrastructure workflows.";
+  const tags = about.tags || [];
+  const metrics = about.metrics || [];
+  const lines = [summary];
+
+  if (tags.length > 0) {
+    lines.push("");
+    lines.push(tags.map((tag) => `\`${tag}\``).join(" "));
+  }
+
+  if (metrics.length > 0) {
+    lines.push("");
+    lines.push(metrics.map((metric) => `- ${metric}`).join("\n"));
+  }
+
+  return lines.join("\n");
+}
+
+function renderExperience(config) {
+  const experience = config.experience || [];
+  if (experience.length === 0) {
+    return "| Role | Focus |\n| --- | --- |\n| DevOps Engineer | Infrastructure automation |";
+  }
+
+  return [
+    "| Role | Where | Focus |",
+    "| --- | --- | --- |",
+    ...experience.map((item) => {
+      const where = [item.company, item.period].filter(Boolean).join(" / ");
+      return `| ${item.role} | ${where} | ${item.focus} |`;
+    })
+  ].join("\n");
+}
+
+function renderNowBuilding(config, owner) {
+  const items = config.nowBuilding || [];
+  if (items.length === 0) {
+    return `- [Infra-Automation](https://github.com/${owner}/Infra-Automation)`;
+  }
+
+  return items.map((item) => `- ${item}`).join("\n");
+}
+
 function renderFeaturedProjects(config, owner) {
   const projects = config.featuredProjects || [];
   if (projects.length === 0) {
@@ -75,6 +120,9 @@ if (!owner) {
 
 const repositories = await listRepositories(owner);
 const profileTraffic = await getProfileTraffic(owner, config);
+const about = renderAbout(config);
+const experience = renderExperience(config);
+const nowBuilding = renderNowBuilding(config, owner);
 const stats = renderStats(repositories);
 const profileViews = renderProfileViews(profileTraffic);
 const featuredProjects = renderFeaturedProjects(config, owner);
@@ -82,6 +130,9 @@ let readme = fs.readFileSync("README.md", "utf8");
 
 readme = readme.replaceAll("YOUR_GITHUB_USERNAME", owner);
 readme = readme.replaceAll("YOUR_LINKEDIN_USERNAME", config.linkedin || "YOUR_LINKEDIN_USERNAME");
+readme = replaceSection(readme, "ABOUT", about);
+readme = replaceSection(readme, "EXPERIENCE", experience);
+readme = replaceSection(readme, "NOW-BUILDING", nowBuilding);
 readme = replaceSection(readme, "PROFILE-STATS", stats);
 readme = replaceSection(readme, "PROFILE-VIEWS", profileViews);
 readme = replaceSection(readme, "FEATURED-PROJECTS", featuredProjects);
