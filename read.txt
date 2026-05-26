@@ -1,0 +1,44 @@
+GitHub Profile Automation has been created in this folder.
+
+What was added:
+
+1. Professional profile README
+   - Intro for Chetan Sharma
+   - DevOps-focused current work
+   - Tech stack badges
+   - Auto-updated GitHub snapshot section
+   - Featured projects section
+   - GitHub, LinkedIn, and email links
+
+2. GitHub Actions workflow
+   - File: .github/workflows/profile-automation.yml
+   - Runs every Sunday at 00:00 UTC
+   - Can also be triggered manually from the Actions tab
+   - Generates profile stats
+   - Updates repository topics
+   - Updates missing descriptions
+   - Creates a repository quality report
+   - Commits generated README/report changes
+
+3. Automation scripts
+   - scripts/generate-stats.js
+   - scripts/update-topics.js
+   - scripts/update-descriptions.js
+   - scripts/validate-repos.js
+   - scripts/lib/github.js
+
+4. Configuration
+   - File: profile.config.json
+   - Update this with your GitHub username, LinkedIn username, featured projects, and custom repository descriptions.
+
+5. Documentation
+   - File: AUTOMATION_GUIDE.md
+   - Includes setup, token, local run, and GitHub Actions instructions.
+
+Next steps:
+
+1. Replace YOUR_GITHUB_USERNAME in profile.config.json with your real GitHub username.
+2. Replace YOUR_LINKEDIN_USERNAME with your LinkedIn profile slug.
+3. Push these files to your GitHub profile repository.
+4. Add a repository secret named PROFILE_TOKEN if you want the workflow to update topics and descriptions across multiple repositories.
+5. Run the GitHub Actions workflow manually once to test it.
