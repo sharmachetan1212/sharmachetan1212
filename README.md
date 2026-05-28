@@ -70,7 +70,9 @@ Python & Scripting     ##############------ 72%
 ## Profile Traffic
 
 <!-- PROFILE-VIEWS:START -->
-- Unique profile visitors: **Unavailable**
+- Unique profile visitors: **2**
+- Total profile views: **68**
+- Window: **Last 14 days from GitHub traffic data**
 <!-- PROFILE-VIEWS:END -->
 
 <p>
@@ -89,6 +91,8 @@ Python & Scripting     ##############------ 72%
 - [jenkins-run-python](https://github.com/sharmachetan1212/jenkins-run-python) - Jenkins pipeline that builds, tests, and delivers a Python application inside a Docker container.
 - [voting-app-kube](https://github.com/sharmachetan1212/voting-app-kube) - Kubernetes microservices demo using deployments, services, ingress, volumes, ConfigMaps, Secrets, and namespaces.
 - [TERRAFORM-AWS-CONFIGURATION_SAP](https://github.com/sharmachetan1212/TERRAFORM-AWS-CONFIGURATION_SAP) - Terraform template for provisioning SAP-focused AWS infrastructure as a service.
+- [IAC-Template-structure](https://github.com/sharmachetan1212/IAC-Template-structure) - SAP infrastructure template structure using Terraform and Chef concepts.
+- [docker-localhost](https://github.com/sharmachetan1212/docker-localhost) - Docker project for running a local application environment.
 <!-- FEATURED-PROJECTS:END -->
 
 ## Focus Areas

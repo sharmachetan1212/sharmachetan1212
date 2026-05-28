@@ -17,16 +17,25 @@ export function getToken() {
 
 export async function githubRequest(path, options = {}) {
   const token = getToken();
-  if (!token) {
-    throw new Error("Missing GH_TOKEN or GITHUB_TOKEN environment variable.");
+  const method = (options.method || "GET").toUpperCase();
+
+  if (!token && !["GET", "HEAD"].includes(method)) {
+    throw new Error(
+      [
+        "Missing GH_TOKEN or GITHUB_TOKEN environment variable.",
+        "Create a GitHub token, then run one of:",
+        '  PowerShell: $env:GH_TOKEN="your_token_here"',
+        "  cmd.exe: set GH_TOKEN=your_token_here"
+      ].join("\n")
+    );
   }
 
   const response = await fetch(`${API_BASE}${path}`, {
     ...options,
     headers: {
       Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
       "X-GitHub-Api-Version": "2022-11-28",
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
       ...(options.headers || {})
     }
   });
