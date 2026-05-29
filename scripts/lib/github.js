@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { execFileSync } from "node:child_process";
 
 const API_BASE = "https://api.github.com";
 
@@ -12,7 +13,19 @@ export function getOwner(config) {
 }
 
 export function getToken() {
-  return process.env.GH_TOKEN || process.env.GITHUB_TOKEN || "";
+  const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
+  if (token) {
+    return token;
+  }
+
+  try {
+    return execFileSync("gh", ["auth", "token"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"]
+    }).trim();
+  } catch {
+    return "";
+  }
 }
 
 export async function githubRequest(path, options = {}) {
@@ -23,9 +36,11 @@ export async function githubRequest(path, options = {}) {
     throw new Error(
       [
         "Missing GH_TOKEN or GITHUB_TOKEN environment variable.",
-        "Create a GitHub token, then run one of:",
+        "Create a GitHub token or log in with GitHub CLI, then run one of:",
         '  PowerShell: $env:GH_TOKEN="your_token_here"',
-        "  cmd.exe: set GH_TOKEN=your_token_here"
+        "  cmd.exe: set GH_TOKEN=your_token_here",
+        "  WSL/Linux: export GH_TOKEN=\"$(gh auth token)\"",
+        "  GitHub CLI: gh auth login"
       ].join("\n")
     );
   }

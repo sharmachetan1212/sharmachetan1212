@@ -53,6 +53,30 @@
       "description": "Infrastructure automation project combining Terraform and Ansible for flexible provisioning and configuration workflows."
     },
     {
+      "repo": "Terraform-Automation",
+      "description": "Terraform automation project for AWS infrastructure provisioning and infrastructure as code practice."
+    },
+    {
+      "repo": "Ansible-Automation",
+      "description": "Ansible automation project for repeatable server configuration and infrastructure operations."
+    },
+    {
+      "repo": "Bash-Scripts-Automation",
+      "description": "Bash scripting automation project focused on safe CLI patterns and reusable operations scripts."
+    },
+    {
+      "repo": "Containers-Automation",
+      "description": "Container automation project for Docker packaging, local runtime workflows, and deployment practice."
+    },
+    {
+      "repo": "CICD-Autoamtion",
+      "description": "CI/CD automation project for build, test, scan, and delivery pipeline practice."
+    },
+    {
+      "repo": "Backup-DR-Autoamtion",
+      "description": "Backup and disaster recovery automation project for restore-first reliability practice."
+    },
+    {
       "repo": "jenkins-run-python",
       "description": "Jenkins pipeline that builds, tests, and delivers a Python application inside a Docker container."
     },
@@ -81,6 +105,13 @@
   ],
   "descriptionOverrides": {
     "Infra-Automation": "Infrastructure automation project combining Terraform and Ansible for flexible provisioning and configuration workflows.",
+    "Terraform-Automation": "Terraform automation project for AWS infrastructure provisioning and infrastructure as code practice.",
+    "Ansible-Automation": "Ansible automation project for repeatable server configuration and infrastructure operations.",
+    "Bash-Scripts-Automation": "Bash scripting automation project focused on safe CLI patterns and reusable operations scripts.",
+    "Containers-Automation": "Container automation project for Docker packaging, local runtime workflows, and deployment practice.",
+    "CICD-Autoamtion": "CI/CD automation project for build, test, scan, and delivery pipeline practice.",
+    "Backup-DR-Autoamtion": "Backup and disaster recovery automation project for restore-first reliability practice.",
+    "sharmachetan1212": "GitHub profile repository with automated README sections, repository metadata checks, and profile stats generation.",
     "jenkins-run-python": "Jenkins pipeline that builds, tests, and delivers a Python application inside a Docker container.",
     "voting-app-kube": "Kubernetes microservices demo using deployments, services, ingress, volumes, ConfigMaps, Secrets, and namespaces.",
     "TERRAFORM-AWS-CONFIGURATION_SAP": "Terraform template for provisioning SAP-focused AWS infrastructure on AWS.",

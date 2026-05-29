@@ -64,14 +64,14 @@ Python & Scripting     ##############------ 72%
 - Public repositories tracked: **18**
 - Total stars: **0**
 - Total forks: **0**
-- Most used languages: **HTML (4), JavaScript (3), HCL (2), Ruby (1), Dockerfile (1), CSS (1)**
+- Most used languages: **HTML (4), JavaScript (3), HCL (2), Shell (1), Jinja (1), CSS (1)**
 <!-- PROFILE-STATS:END -->
 
 ## Profile Traffic
 
 <!-- PROFILE-VIEWS:START -->
 - Unique profile visitors: **2**
-- Total profile views: **68**
+- Total profile views: **69**
 - Window: **Last 14 days from GitHub traffic data**
 <!-- PROFILE-VIEWS:END -->
 
@@ -88,6 +88,12 @@ Python & Scripting     ##############------ 72%
 
 <!-- FEATURED-PROJECTS:START -->
 - [Infra-Automation](https://github.com/sharmachetan1212/Infra-Automation) - Infrastructure automation project combining Terraform and Ansible for flexible provisioning and configuration workflows.
+- [Terraform-Automation](https://github.com/sharmachetan1212/Terraform-Automation) - Terraform automation project for AWS infrastructure provisioning and infrastructure as code practice.
+- [Ansible-Automation](https://github.com/sharmachetan1212/Ansible-Automation) - Ansible automation project for repeatable server configuration and infrastructure operations.
+- [Bash-Scripts-Automation](https://github.com/sharmachetan1212/Bash-Scripts-Automation) - Bash scripting automation project focused on safe CLI patterns and reusable operations scripts.
+- [Containers-Automation](https://github.com/sharmachetan1212/Containers-Automation) - Container automation project for Docker packaging, local runtime workflows, and deployment practice.
+- [CICD-Autoamtion](https://github.com/sharmachetan1212/CICD-Autoamtion) - CI/CD automation project for build, test, scan, and delivery pipeline practice.
+- [Backup-DR-Autoamtion](https://github.com/sharmachetan1212/Backup-DR-Autoamtion) - Backup and disaster recovery automation project for restore-first reliability practice.
 - [jenkins-run-python](https://github.com/sharmachetan1212/jenkins-run-python) - Jenkins pipeline that builds, tests, and delivers a Python application inside a Docker container.
 - [voting-app-kube](https://github.com/sharmachetan1212/voting-app-kube) - Kubernetes microservices demo using deployments, services, ingress, volumes, ConfigMaps, Secrets, and namespaces.
 - [TERRAFORM-AWS-CONFIGURATION_SAP](https://github.com/sharmachetan1212/TERRAFORM-AWS-CONFIGURATION_SAP) - Terraform template for provisioning SAP-focused AWS infrastructure as a service.
