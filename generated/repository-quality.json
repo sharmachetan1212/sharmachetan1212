@@ -1,0 +1,128 @@
+[
+  {
+    "repository": "Bash-Scripts-Automation",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": false,
+    "hasLicense": false
+  },
+  {
+    "repository": "Terraform-Automation",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "Ansible-Automation",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "sharmachetan1212",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "Containers-Automation",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": false,
+    "hasLicense": false
+  },
+  {
+    "repository": "Backup-DR-Autoamtion",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": false,
+    "hasLicense": false
+  },
+  {
+    "repository": "CICD-Autoamtion",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": false,
+    "hasLicense": false
+  },
+  {
+    "repository": "haxkvedainte",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": false,
+    "hasLicense": false
+  },
+  {
+    "repository": "COVID-19-Tracker",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "jenkins-run-python",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "TERRAFORM-AWS-CONFIGURATION_SAP",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "voting-app-kube",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "docker-localhost",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "clone-insta",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  },
+  {
+    "repository": "Chetan-projects",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": false,
+    "hasLicense": false
+  },
+  {
+    "repository": "IAC-Template-structure",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": false,
+    "hasLicense": false
+  },
+  {
+    "repository": "HTML.vscode",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": false,
+    "hasLicense": false
+  },
+  {
+    "repository": "Calculator-on-web",
+    "hasDescription": true,
+    "hasTopics": true,
+    "hasReadme": true,
+    "hasLicense": false
+  }
+]

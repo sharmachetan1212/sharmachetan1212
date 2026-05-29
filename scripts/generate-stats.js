@@ -111,6 +111,22 @@ function renderProfileViews(traffic) {
   ].join("\n");
 }
 
+function readPreviousProfileTraffic() {
+  try {
+    const stats = JSON.parse(fs.readFileSync("generated/profile-stats.json", "utf8"));
+    if (!stats.profileViews) {
+      return null;
+    }
+
+    return {
+      uniques: stats.profileViews.uniqueVisitorsLast14Days,
+      count: stats.profileViews.totalViewsLast14Days
+    };
+  } catch {
+    return null;
+  }
+}
+
 const config = loadConfig();
 const owner = getOwner(config);
 
@@ -119,7 +135,7 @@ if (!owner) {
 }
 
 const repositories = await listRepositories(owner);
-const profileTraffic = await getProfileTraffic(owner, config);
+const profileTraffic = (await getProfileTraffic(owner, config)) || readPreviousProfileTraffic();
 const about = renderAbout(config);
 const experience = renderExperience(config);
 const nowBuilding = renderNowBuilding(config, owner);

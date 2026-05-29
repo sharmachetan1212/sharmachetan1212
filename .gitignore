@@ -1,3 +1,5 @@
 node_modules/
 .env
-Git-info.txt
+git-info.txt
+git_cmds.txt
+read.txt

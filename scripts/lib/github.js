@@ -1,4 +1,5 @@
 import fs from "node:fs";
+import { execFileSync } from "node:child_process";
 
 const API_BASE = "https://api.github.com";
 
@@ -12,21 +13,44 @@ export function getOwner(config) {
 }
 
 export function getToken() {
-  return process.env.GH_TOKEN || process.env.GITHUB_TOKEN || "";
+  const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
+  if (token) {
+    return token;
+  }
+
+  try {
+    return execFileSync("gh", ["auth", "token"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"]
+    }).trim();
+  } catch {
+    return "";
+  }
 }
 
 export async function githubRequest(path, options = {}) {
   const token = getToken();
-  if (!token) {
-    throw new Error("Missing GH_TOKEN or GITHUB_TOKEN environment variable.");
+  const method = (options.method || "GET").toUpperCase();
+
+  if (!token && !["GET", "HEAD"].includes(method)) {
+    throw new Error(
+      [
+        "Missing GH_TOKEN or GITHUB_TOKEN environment variable.",
+        "Create a GitHub token or log in with GitHub CLI, then run one of:",
+        '  PowerShell: $env:GH_TOKEN="your_token_here"',
+        "  cmd.exe: set GH_TOKEN=your_token_here",
+        "  WSL/Linux: export GH_TOKEN=\"$(gh auth token)\"",
+        "  GitHub CLI: gh auth login"
+      ].join("\n")
+    );
   }
 
   const response = await fetch(`${API_BASE}${path}`, {
     ...options,
     headers: {
       Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
       "X-GitHub-Api-Version": "2022-11-28",
+      ...(token ? { Authorization: `Bearer ${token}` } : {}),
       ...(options.headers || {})
     }
   });
