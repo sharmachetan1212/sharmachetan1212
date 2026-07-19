@@ -70,8 +70,8 @@ Python & Scripting     ##############------ 72%
 ## Profile Traffic
 
 <!-- PROFILE-VIEWS:START -->
-- Unique profile visitors: **1**
-- Total profile views: **2**
+- Unique profile visitors: **0**
+- Total profile views: **0**
 - Window: **Last 14 days from GitHub traffic data**
 <!-- PROFILE-VIEWS:END -->
 
