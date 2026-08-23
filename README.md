@@ -64,14 +64,14 @@ Python & Scripting     ##############------ 72%
 - Public repositories tracked: **18**
 - Total stars: **1**
 - Total forks: **0**
-- Most used languages: **HTML (4), JavaScript (3), HCL (2), Ruby (1), CSS (1), Shell (1)**
+- Most used languages: **HTML (4), JavaScript (3), HCL (2), Dockerfile (1), Jinja (1), Shell (1)**
 <!-- PROFILE-STATS:END -->
 
 ## Profile Traffic
 
 <!-- PROFILE-VIEWS:START -->
-- Unique profile visitors: **0**
-- Total profile views: **0**
+- Unique profile visitors: **1**
+- Total profile views: **1**
 - Window: **Last 14 days from GitHub traffic data**
 <!-- PROFILE-VIEWS:END -->
 
